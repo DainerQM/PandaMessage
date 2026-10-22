@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and application configuration
+/config.json
+/config_backup.json
+/config_clean.json
+
+# Generated build output
+/build/
+/dist/
+/installer/
+
+# Runtime data
+/database/*
+!/database/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
